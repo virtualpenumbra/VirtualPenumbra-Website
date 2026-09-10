@@ -140,8 +140,6 @@ button:hover{
         transform: scale(1.1);
 }
 
-
-
 @media (max-width: 900px) {
     .GALLERY {
         grid-template-columns: repeat(2, 1fr); 
@@ -176,6 +174,7 @@ button:hover{
     
     button {
         min-width: 45%; 
-        flex-grow: 0; 
+        flex-grow: 1; 
     }
+}
 }
